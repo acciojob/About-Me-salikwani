@@ -1,1 +1,32 @@
-
+.main-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 50px;
+}
+hr {
+	width:110px;
+	height: 5px;
+	margin: 0;
+	padding: 0;
+	background-color: dodgerblue;
+	border-radius: 110px;
+}
+.item {
+	display: flex;
+	flex-flow: row wrap;
+}
+.skills{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+}
+.about {
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.img-bio {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+}
